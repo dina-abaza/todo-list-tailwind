@@ -1,12 +1,37 @@
-# React + Vite
+# 📝 React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean, and responsive **To-Do List** app built using **React**, **Tailwind CSS**, and **Zustand** for global state management.  
+Supports full **Dark Mode**, and allows users to add, edit, delete, and complete tasks easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks
+- ✔️ Mark tasks as completed/uncompleted
+- 📝 Edit existing tasks
+- ❌ Delete tasks
+- 🌗 Toggle between Light and Dark modes
+- ⚙️ Global state management with **Zustand**
+- 🎨 Fully styled using **Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React** – JavaScript library for building user interfaces
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **Zustand** – Lightweight and scalable state management library
+- **JavaScript (ES6+)**
+
+---
+
+## 🧠 Why Zustand?
+
+Instead of relying on React’s `useState` or prop drilling, this project uses [Zustand](https://github.com/pmndrs/zustand) for global state.  
+Zustand helps to simplify the logic and allows multiple components to access and update the task list efficiently without boilerplate.
+
+---
+
+## 📂 Project Structure
+
